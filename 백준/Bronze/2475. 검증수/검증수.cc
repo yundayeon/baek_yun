@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    cin.tie(0)->sync_with_stdio(0);
+    int arr[5];
+    int sum = 0;
+    for (int i  = 0; i < 5; i++) {
+        cin>>arr[i];
+        sum += arr[i]*arr[i];
+    } cout<<sum % 10;
+}
