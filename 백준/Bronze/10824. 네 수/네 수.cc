@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <sstream>
 #include <algorithm>
 #include <numeric>
 #include <vector>
@@ -14,10 +13,7 @@ int main() {
     cin>>a>>b>>c>>d;
     s.append(a + b);
     f.append(c + d);
-    stringstream ss(s);
-    stringstream sss(f);
-    long long s1,f1;
-    ss>>s1;
-    sss>>f1;
+    long long s1 = stoll(s);
+    long long f1 = stoll(f);
     cout<<s1+f1;
 }
