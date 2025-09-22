@@ -12,4 +12,4 @@ for i in range (t):
         a[3] += s / 1
         s = s % 1
     print(int(a[0]), int(a[1]), int(a[2]), int(a[3]))
-    
+   
