@@ -22,5 +22,4 @@ int main() {
             cout<<", ";
         } a.pop();
     }cout<<'>';
-    return 0;
 }
